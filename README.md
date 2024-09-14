@@ -49,7 +49,7 @@ To add new restaurants to the database, simply update the `restaurants.json` fil
    Navigate to the `/restaurants` directory in the project repository and open the `restaurants.json` file.
 
 2. **Add your restaurant data**: 
-   Ensure your new restaurant entries follow the proper format (as outlined below). Each restaurant should include fields such as `name`, `style`, `vegetarian`, `openHour`, and `closeHour`.
+   Ensure your new restaurant entries follow the proper format (as outlined below). Each restaurant should include fields such as `name`, `style`, `address`, `vegetarian`, `openHour`, and `closeHour`.
 
 3. **Submit a PR**: 
    After adding the new restaurant(s), commit your changes and submit a pull request. The CI/CD pipeline will validate the data and update the MongoDB database if the format is correct.

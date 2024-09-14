@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Pizza Hut",
+        "style": "Italian",
+        "address": "Hanechoshet 1, Tel Aviv-Yafo",
+        "openHour": "09:00",
+        "closeHour": "23:00",
+        "vegetarian": "yes"
+    },
+    {
+        "name": "MeatBar",
+        "style": "Steakhouse",
+        "address": "Maskit St 35, Herzliya",
+        "openHour": "11:30",
+        "closeHour": "23:00",
+        "vegetarian": "no"
+    },
+    {
+        "name": "Zozobra",
+        "style": "Asian",
+        "address": "Arye Shenkar St 7, Herzliya",
+        "openHour": "12:00",
+        "closeHour": "22:30",
+        "vegetarian": "yes"
+    },
+    {
+        "name": "Joya",
+        "style": "Italian",
+        "address": "Yerushalaim Rd 34, Ra'anana",
+        "openHour": "12:00",
+        "closeHour": "23:00",
+        "vegetarian": "yes"
+    },
+    {
+        "name": "Port 19",
+        "style": "Steakhouse",
+        "address": "Weizman St 4, Ramat Hasharon",
+        "openHour": "11:45",
+        "closeHour": "23:45",
+        "vegetarian": "no"
+    },
+    {
+        "name": "Derby Bar",
+        "style": "Mediterranean",
+        "address": "Ha-Shunit St 2, Herzliya",
+        "openHour": "12:00",
+        "closeHour": "23:30",
+        "vegetarian": "yes"
+    },
+    {
+        "name": "Nammos",
+        "style": "Asian",
+        "address": "HaTsedef St 1, Herzliya",
+        "openHour": "12:00",
+        "closeHour": "23:00",
+        "vegetarian": "yes"
+    },
+    {
+        "name": "Jango Burger",
+        "style": "Steakhouse",
+        "address": "Hillel ha-Zaken St 12, Tel Aviv-Yafo",
+        "openHour": "18:00",
+        "closeHour": "23:00",
+        "vegetarian": "no"
+    },
+    {
+        "name": "Nooch",
+        "style": "Asian",
+        "address": "Hasaifan 9, Ramat Hasharon",
+        "openHour": "18:00",
+        "closeHour": "23:00",
+        "vegetarian": "no"
+    }
+]
