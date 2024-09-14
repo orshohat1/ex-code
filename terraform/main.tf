@@ -66,7 +66,7 @@ module "storage_account" {
   name                = "${local.storage_account_prefix}${random_string.storage_account_suffix.result}"
   location            = var.location
   resource_group_name = azurerm_resource_group.rg.name
-  ip_rules            = ["109.64.113.74"]
+  ip_rules            = ["79.183.252.120"]
 
   virtual_network_subnet_ids = [
     module.vnet.subnet_ids[var.appserivce_subnet_name]
@@ -118,7 +118,7 @@ module "key_vault" {
   location            = var.location
   resource_group_name = azurerm_resource_group.rg.name
   tenant_id           = data.azurerm_client_config.current.tenant_id
-  ip_rules            = ["109.64.113.74"]
+  ip_rules            = ["79.183.252.120"]
 
   virtual_network_subnet_ids = [
     module.vnet.subnet_ids[var.appserivce_subnet_name]
