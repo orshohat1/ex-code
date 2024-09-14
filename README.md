@@ -8,7 +8,7 @@ The first step in deploying this project is to execute the Terraform configurati
 - Resource group creation
 - MongoDB Atlas deployment
 - Virtual network (VNet) and subnets
-- Storage account with private endpoint and DNS zone
+- Storage account with private endpoint and DNS zone for logging all requests to the API
 - Key Vault with private endpoint and DNS zone for secure secrets management
 - App Service for hosting the Flask API
 
@@ -39,6 +39,8 @@ The `restaurants` service allows you to query restaurant information based on va
     - `italian`
     - `steakhouse`
     - `asian`
+
+- **Example Query**: A vegetarian italian restaurant that is open now
 
 ## 3. Adding New Restaurants
 
