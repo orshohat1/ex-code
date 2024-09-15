@@ -13,8 +13,8 @@ resource "azurerm_resource_group" "rg" {
 ###### MONGODB ###########
 module "mongodb_atlas" {
   source       = "./modules/mongodb-atlas"
-  public_key   = "cstwjbbw"
-  private_key  = "d21a6d7a-d97e-494c-bc18-5132b8f06bd9"
+  public_key   = var.mongodb_atlas_public_key
+  private_key  = var.mongodb_atlas_private_key
   org_id       = "66d9e24ff21c98641e67ac73"
   project_name = "Project 1"
   cluster_name = "Cluster0"
